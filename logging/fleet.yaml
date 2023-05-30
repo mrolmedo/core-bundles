@@ -9,7 +9,7 @@ diff:
   comparePatches:
   - apiVersion: logging.banzaicloud.io/v1beta1
     kind: Logging
-    name: rancher-logging
+    name:  cattle-logging-system
     operations:
     - {"op": "add", "path": "/spec/fluentbit", "value": '{resources":{"requests":{"cpu":"100m"}}}'}
     - {"op": "add", "path": "/spec/fluentd", "value": '{resources":{"requests":{"cpu":"100m"}}}'}
