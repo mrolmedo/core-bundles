@@ -11,5 +11,5 @@ diff:
     kind: Logging
     name:  cattle-logging-system
     operations:
-    - {"op": "add", "path": "/spec/fluentbit", "value": '{resources":{"requests":{"cpu":"100m"}}}'}
-    - {"op": "add", "path": "/spec/fluentd", "value": '{resources":{"requests":{"cpu":"100m"}}}'}
+    - {"op": "add", "path": "/spec/fluentbit", "value": '{resources":{"requests":{"cpu":"150m"}}}'}
+    - {"op": "add", "path": "/spec/fluentd", "value": '{resources":{"requests":{"cpu":"150m"}}}'}
