@@ -5,6 +5,7 @@ helm:
   chart: rancher-logging
   releaseName: rancher-logging
   version: 103.0.1+up3.17.10
+
 diff:
   comparePatches:
   - apiVersion: logging.banzaicloud.io/v1beta1
